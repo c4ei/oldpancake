@@ -30,7 +30,7 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 "name": "Syrup Token",
 "symbol": "SYRUP",
 "address": "0x009cF7bC57584b7998236eff51b98A168DceA9B0",
-"chainId": 56,
+"chainId": 21004,
 "decimals": 18,
 "logoURI": "/images/coins/SYRUP.png"
 },

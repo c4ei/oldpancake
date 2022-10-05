@@ -25,8 +25,8 @@ import PoolCard from './components/PoolCard'
 import PoolTabButtons from './components/PoolTabButtons'
 import Divider from './components/Divider'
 
-const MASH = new Token(ChainId.MAINNET, '0x787732f27d18495494cea3792ed7946bbcff8db2', 18)
-const BNB = new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18)
+const MASH = new Token(ChainId.MAINNET, '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51', 18)
+const BNB = new Token(ChainId.MAINNET, '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa', 18)
 
 const Pools: React.FC = () => {
   const { path } = useRouteMatch()
@@ -49,7 +49,7 @@ const Pools: React.FC = () => {
         if (_token !== '') {
           const mytoken = `0x${_token.substring(2).toUpperCase()}`
 
-          if (mytoken !== '0xBB4CDB9CBD36B01BD1CBAEBF2DE08D9173BC095C') {
+          if (mytoken !== '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa') {
             // console.log('aj ****** isLp', _isLp, mytoken)
             if (_isLp === true) {
               console.log('myLPtokenDATA11')
@@ -96,7 +96,7 @@ const Pools: React.FC = () => {
                 ),
               )
             }
-          } else if (mytoken === '0xBB4CDB9CBD36B01BD1CBAEBF2DE08D9173BC095C') {
+          } else if (mytoken === '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa') {
             setPrice(new BigNumber(1))
           }
         }
@@ -119,7 +119,7 @@ const Pools: React.FC = () => {
           console.log('tokeeeeeen STAKEE', _token)
           const mytoken = `0x${_token.substring(2).toUpperCase()}`
 
-          if (mytoken !== '0xBB4CDB9CBD36B01BD1CBAEBF2DE08D9173BC095C') {
+          if (mytoken !== '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa') {
             console.log('isLp STAKEE', _isLp)
             if (_isLp === true) {
               console.log('myLPtokenDATA11 STAKEE')
@@ -172,7 +172,7 @@ const Pools: React.FC = () => {
 
 
 
-          } else if (mytoken === '0xBB4CDB9CBD36B01BD1CBAEBF2DE08D9173BC095C') {
+          } else if (mytoken === '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa') {
             setPrice(new BigNumber(1))
           }
         }
@@ -219,13 +219,13 @@ const Pools: React.FC = () => {
     }
 
     const price = TokenPriceBNB(address, pool.tokenDecimals, pool.isLPReward, pool.isSlimeAMM)
-    if(pool.stakingTokenAddress !== "0x787732f27d18495494cea3792ed7946bbcff8db2"){
+    if(pool.stakingTokenAddress !== "0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51"){
       stakePrice = StakeTokenPriceBNB(pool.stakingTokenAddress, 18, pool.isLPStake,pool.isSlimeAMM)
     }
 
     if (pool.isLPStake) {
       stakepriceBUSD = stakePrice
-    }  else if(pool.stakingTokenAddress === "0x787732f27d18495494cea3792ed7946bbcff8db2"){
+    }  else if(pool.stakingTokenAddress === "0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51"){
       stakePrice = cakebusd.div(bnbPriceUSD);
       stakepriceBUSD= cakebusd;
     } else {

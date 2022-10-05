@@ -1,4 +1,8 @@
 marsh clone
+#######################################################
+https://github.com/MarshmallowSwap/marshmallow-frontend
+https://github.com/MarshmallowSwap/marshmallow-swap
+#######################################################
 
 export PORT=3003 && --> chg.c4ei.net
 cd /home/dev/www/farm_temp/oldpancake/exc
@@ -9,3 +13,62 @@ cd /home/dev/www/farm_temp/oldpancake/farm
 yarn start
 
 /home/dev/www/farm_temp/oldpancake/exc/src/constants/token/pancakeswap.json
+
+
+/home/dev/www/farm_temp/oldpancake/exc/src/state/swap/hooks.ts
+'0xBCfCcbde45cE874adCB698cC183deBcF17952812', // v2 factory  --> 0x4e5fC6941e4cd0ba416275D746999eafC29Cd427 (22-10-05)
+'0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
+'0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02 --> 0xC07d4604400139108BbdB3076636365A385879eF --> 0x36DC049965fb0E07B9d49A2DCCE37Ac634D73ffa
+
+/home/dev/www/farm_temp/oldpancake/exc/src/constants/v1/index.ts
+const V1_FACTORY_ADDRESSES: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: '0xC07d4604400139108BbdB3076636365A385879eF', // TODO
+  [ChainId.BSCTESTNET]: '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F'
+}
+
+/home/dev/www/farm_temp/oldpancake/exc/src/constants/index.ts
+export const ROUTER_ADDRESS = '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F'
+
+
+/home/dev/www/farm_temp/oldpancake/farm/src/config/constants/contracts.ts
+export default {
+  cake: {
+    56: '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69',
+    97: '',
+  },
+  masterChef: {
+    56: '0x8932a6265b01d1d4e1650feb8ac38f9d79d3957b',  --> 0xcb84554353aae0347235Dd80404197593d50D12a
+    97: '',
+  },
+  wbnb: {
+    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    97: '',
+  },
+  lottery: {
+    56: '',
+    97: '',
+  },
+  lotteryNFT: {
+    56: '',
+    97: '',
+  },
+  mulltiCall: {
+    56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',  --> 0x59db9E646D3d9b18E2831Ea8039a2A407CE61289
+    97: '0x67ADCB4dF3931b0C5Da724058ADC2174a9844412',
+  },
+  busd: {
+    56: '0xe9e7cea3dedca5984780bafc599bd69add087d56', --> 0xBa9303709c2Ad10b62a598e18e15b1E42921edea
+    97: '',
+  },
+  wcake: {
+    56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    97: '',
+  },
+ 
+}
+
+
+/home/dev/www/farm_temp/oldpancake/farm/src/config/constants/pools.ts
+0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69
+/home/dev/www/farm_temp/oldpancake/farm/src/config/constants/farms.ts
+0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69

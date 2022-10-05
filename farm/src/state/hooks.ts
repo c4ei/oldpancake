@@ -130,7 +130,7 @@ export const useLaunchPoolValue = () => {
   launchPools.forEach(launchPool => {
     if (launchPool.stakingTokenAddress) {
       let val;
-      if (launchPool.stakingTokenName === QuoteToken.MASH) {
+      if (launchPool.stakingTokenName === QuoteToken.ALBA) {
         val = mashPrice.times(launchPool.totalStaked).div(new BigNumber(10).pow(launchPool.tokenDecimals))
       } else if (launchPool.stakingTokenName === QuoteToken.BNB) {
         val = bnbPrice.times(launchPool.totalStaked).div(new BigNumber(10).pow(launchPool.tokenDecimals))

@@ -1,54 +1,55 @@
 export default {
   cake: {
-    56: '0x787732f27d18495494cea3792ed7946bbcff8db2',
+    21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     97: '',
   },
   masterChef: {
-    56: '0x8932a6265b01d1d4e1650feb8ac38f9d79d3957b',
+    21004: '0x1E7a94A2B33BB95d2BB9f174A213Ab6E5d6bd3fD',
     97: '',
   },
   wbnb: {
-    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    21004: '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa',
     97: '',
   },
   lottery: {
-    56: '',
+    21004: '',
     97: '',
   },
   lotteryNFT: {
-    56: '',
+    21004: '',
     97: '',
   },
   mulltiCall: {
-    56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',
-    97: '0x67ADCB4dF3931b0C5Da724058ADC2174a9844412',
+    21004: '0x59db9E646D3d9b18E2831Ea8039a2A407CE61289',
+    97: '',
   },
   busd: {
-    56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+    21004: '0xBa9303709c2Ad10b62a598e18e15b1E42921edea',
     97: '',
   },
   wcake: {
-    56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    21004: '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69',
     97: '',
-  },
-  btcb: {
-    56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
-    97: '',
-  },
-  vault: {
-    56: '0xd456be0ff7007b3d8ad656136487a23e771f5762',
-    97: '',
-  },
-  plum: {
-    56: '0xdE8eD8c9480EA12D050182AA99630B235dE30f83',
-    97: '',
-  },
-  slime: {
-    56: '0x23b06097F8FE2DD9D3dF094D3ee8319Daa8756c1',
-    97: '',
-  },
-  tako: {
-    56: '0x2F3391AeBE27393aBa0a790aa5E1577fEA0361c2',
-    97: ''
   }
+  // ,
+  // btcb: {
+  //   21004: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+  //   97: '',
+  // },
+  // vault: {
+  //   21004: '0xd456be0ff7007b3d8ad656136487a23e771f5762',
+  //   97: '',
+  // },
+  // plum: {
+  //   21004: '0xdE8eD8c9480EA12D050182AA99630B235dE30f83',
+  //   97: '',
+  // },
+  // slime: {
+  //   21004: '0x23b06097F8FE2DD9D3dF094D3ee8319Daa8756c1',
+  //   97: '',
+  // },
+  // tako: {
+  //   21004: '0x2F3391AeBE27393aBa0a790aa5E1577fEA0361c2',
+  //   97: ''
+  // }
 }

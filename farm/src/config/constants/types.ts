@@ -24,15 +24,16 @@ export enum QuoteToken {
   'CAKE' = 'CAKE',
   'SYRUP' = 'SYRUP',
   'BUSD' = 'BUSD',
-  'TWT' = 'TWT',
-  'UST' = 'UST',
+  // 'TWT' = 'TWT',
+  // 'UST' = 'UST',
   'WCAKE' = 'WCAKE',
-  'VAULT' = 'VAULT',
-  'BTCB' = 'BTCB',
-  'MASH' = 'MASH',
-  'PLUM' = 'PLUM',
-  'SLIME' = 'SLIME',
-  'TAKO' = 'TAKO'
+  // 'VAULT' = 'VAULT',
+  // 'BTCB' = 'BTCB',
+  'ALBA' = 'ALBA',
+  // 'PLUM' = 'PLUM',
+  // 'SLIME' = 'SLIME',
+  // 'TAKO' = 'TAKO'
+  'C4EI' = 'C4EI',
 }
 
 export enum PoolCategory {
@@ -43,7 +44,7 @@ export enum PoolCategory {
 
 export interface Address {
   97?: string
-  56: string
+  21004: string
 }
 
 export interface FarmConfig {

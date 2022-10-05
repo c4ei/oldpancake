@@ -1,18 +1,18 @@
 describe('Add Liquidity', () => {
   it('loads the two correct tokens', () => {
-    cy.visit('/add/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82-0xe9e7cea3dedca5984780bafc599bd69add087d56')
+    cy.visit('/add/0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69-0xBa9303709c2Ad10b62a598e18e15b1E42921edea')
     cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'CAKE')
     cy.get('#add-liquidity-input-tokenb .token-symbol-container').should('contain.text', 'BUSD')
   })
 
   it('does not crash if CAKE is duplicated', () => {
-    cy.visit('/add/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82-0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82')
+    cy.visit('/add/0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69-0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69')
     cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'CAKE')
     cy.get('#add-liquidity-input-tokenb .token-symbol-container').should('not.contain.text', 'CAKE')
   })
 
   it('token not in storage is loaded', () => {
-    cy.visit('/add/0xe9e7cea3dedca5984780bafc599bd69add087d56-0x7083609fce4d1d8dc0c979aab8c869ea2c873402')
+    cy.visit('/add/0xBa9303709c2Ad10b62a598e18e15b1E42921edea-0x7083609fce4d1d8dc0c979aab8c869ea2c873402')
     cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'BUSD')
     cy.get('#add-liquidity-input-tokenb .token-symbol-container').should('contain.text', 'DOT')
   })
@@ -20,7 +20,7 @@ describe('Add Liquidity', () => {
   it('single token can be selected', () => {
     cy.visit('/add/0x7083609fce4d1d8dc0c979aab8c869ea2c873402')
     cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'DOT')
-    cy.visit('/add/0xe9e7cea3dedca5984780bafc599bd69add087d56')
+    cy.visit('/add/0xBa9303709c2Ad10b62a598e18e15b1E42921edea')
     cy.get('#add-liquidity-input-tokena .token-symbol-container').should('contain.text', 'BUSD')
   })
 

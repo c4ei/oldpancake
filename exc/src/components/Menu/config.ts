@@ -51,11 +51,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'MASH BSC Scan',
-        href: 'https://bscscan.com/token/0x787732f27d18495494cea3792ed7946bbcff8db2',
+        href: 'https://bscscan.com/token/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
       },
       {
         label: 'MASH Price Graph',
-        href: 'https://dex.guru/token/0x787732f27D18495494cea3792ed7946BbCFF8db2-bsc',
+        href: 'https://dex.guru/token/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51-bsc',
       },
       {
         label: 'TOFY BSC Scan',
