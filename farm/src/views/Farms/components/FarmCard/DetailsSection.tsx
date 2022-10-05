@@ -56,9 +56,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
       return depositUrl
     }
     if (isTokenOnly) {
-      return `https://exchange.marshmallowdefi.com/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+      return `https://chg.c4ei.net/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
     }
-    return `https://exchange.marshmallowdefi.com/#/add/${liquidityUrlPathParts}`
+    return `https://chg.c4ei.net/#/add/${liquidityUrlPathParts}`
   }, [isTokenOnly, tokenAddresses, liquidityUrlPathParts, depositUrl]);
 
   return (

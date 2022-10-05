@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.marshmallowdefi.com/',
+        href: 'https://chg.c4ei.net/',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.marshmallowdefi.com/#/pool',
+        href: 'https://chg.c4ei.net/#/pool',
       },
     ],
   },
@@ -33,7 +33,7 @@ const config: MenuEntry[] = [
   {
     label: 'SafeFarms',
     icon: 'FarmIcon',
-    href: 'http://safefarms.marshmallowdefi.com/info',
+    href: 'http://safefarms.ico.c4ei.net/info',
   },
   {
     label: 'Launch Pools',
@@ -43,7 +43,7 @@ const config: MenuEntry[] = [
   // {
   //   label: 'Audit',
   //   icon: 'AuditIcon',
-  //   href: 'https://marshmallowdefi.com/Audit.pdf',
+  //   href: 'https://ico.c4ei.net/Audit.pdf',
   // },
 
 
