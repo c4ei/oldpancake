@@ -1,0 +1,11 @@
+marsh clone
+
+export PORT=3003 && --> chg.c4ei.net
+cd /home/dev/www/farm_temp/oldpancake/exc
+yarn start
+
+export PORT=3005 &&  --> ico.c4ei.net
+cd /home/dev/www/farm_temp/oldpancake/farm
+yarn start
+
+/home/dev/www/farm_temp/oldpancake/exc/src/constants/token/pancakeswap.json
