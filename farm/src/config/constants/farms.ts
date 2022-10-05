@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'MASH-BUSD LP',
+    lpSymbol: 'ALBA-BUSD LP',
     lpAddresses: {
       97: '',
       21004: '0x87c182edb12f74d561519ab586205fe6cd75363a',
     },
-    tokenSymbol: 'MASH',
+    tokenSymbol: 'ALBA',
     tokenAddresses: {
       97: '',
       21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
@@ -22,12 +22,12 @@ const farms: FarmConfig[] = [
   //   {
   //   pid: 20,
   //   risk: 5,
-  //   lpSymbol: 'MASH-ETH LP',
+  //   lpSymbol: 'ALBA-ETH LP',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0x548997391C670A5179AF731A30e7C3aDA2f483e7',
   //   },
-  //   tokenSymbol: 'MASH',
+  //   tokenSymbol: 'ALBA',
   //   tokenAddresses: {
   //     97: '',
   //     21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
@@ -38,12 +38,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'MASH-BNB LP',
+    lpSymbol: 'ALBA-BNB LP',
     lpAddresses: {
       97: '',
       21004: '0x7621886ac71e985dbea4f3f563bbb5a7865876a8',
     },
-    tokenSymbol: 'MASH',
+    tokenSymbol: 'ALBA',
     tokenAddresses: {
       97: '',
       21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
@@ -54,29 +54,29 @@ const farms: FarmConfig[] = [
   // {
   //   pid: 13,
   //   risk: 5,
-  //   lpSymbol: 'MASH-BTCB LP',
+  //   lpSymbol: 'ALBA-BTCB LP',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0x0e70ff44229c6573cc020921345948ba4b5ec7cc',
   //   },
-  //   tokenSymbol: 'MASH',
+  //   tokenSymbol: 'ALBA',
   //   tokenAddresses: {
   //     97: '',
   //     21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
   //   },
-  //   quoteTokenSymbol: QuoteToken.MASH,
+  //   quoteTokenSymbol: QuoteToken.ALBA,
   //   quoteTokenAdresses: contracts.cake,
   //   image: 'mash-btcb'
   // },
   // {
   //   pid: 14,
   //   risk: 5,
-  //   lpSymbol: 'MASH-VAULT LP',
+  //   lpSymbol: 'ALBA-VAULT LP',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0x9f8223b4b616aa9becb599c93b0430c6bef0443a',
   //   },
-  //   tokenSymbol: 'MASH',
+  //   tokenSymbol: 'ALBA',
   //   tokenAddresses: {
   //     97: '',
   //     21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
@@ -87,29 +87,29 @@ const farms: FarmConfig[] = [
   // {
   //   pid: 15,
   //   risk: 5,
-  //   lpSymbol: 'MASH-CAKE LP',
+  //   lpSymbol: 'ALBA-CAKE LP',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0x16940bc578c30c7c10a2cf8a150b98a8b1cee152',
   //   },
-  //   tokenSymbol: 'MASH',
+  //   tokenSymbol: 'ALBA',
   //   tokenAddresses: {
   //     97: '',
   //     21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
   //   },
-  //   quoteTokenSymbol: QuoteToken.MASH,
+  //   quoteTokenSymbol: QuoteToken.ALBA,
   //   quoteTokenAdresses: contracts.cake,
   //   image: 'mash-cake',
   // },
   // {
   //   pid: 21,
   //   risk: 5,
-  //   lpSymbol: 'MASH-PLUM LP',
+  //   lpSymbol: 'ALBA-PLUM LP',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0x9EC365D77dCF2b3230399a23D35aEF4318de710D',
   //   },
-  //   tokenSymbol: 'MASH',
+  //   tokenSymbol: 'ALBA',
   //   tokenAddresses: {
   //     97: '',
   //     21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
@@ -121,7 +121,7 @@ const farms: FarmConfig[] = [
   // {
   //   pid: 22,
   //   risk: 5,
-  //   lpSymbol: 'MASH-SLIME LP',
+  //   lpSymbol: 'ALBA-SLIME LP',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0xb442780739037577920857DaD91259416b72DE7a',
@@ -131,7 +131,7 @@ const farms: FarmConfig[] = [
   //     97: '',
   //     21004: '0x23b06097F8FE2DD9D3dF094D3ee8319Daa8756c1',
   //   },
-  //   quoteTokenSymbol: QuoteToken.MASH,
+  //   quoteTokenSymbol: QuoteToken.ALBA,
   //   quoteTokenAdresses: contracts.cake,
   //   depositUrl: 'https://dex.slime.finance/#/add/0x23b06097F8FE2DD9D3dF094D3ee8319Daa8756c1/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
   //   image: 'mash-slime'
@@ -139,7 +139,7 @@ const farms: FarmConfig[] = [
   // {
   //   pid: 23,
   //   risk: 5,
-  //   lpSymbol: 'MASH-TAKO LP',
+  //   lpSymbol: 'ALBA-TAKO LP',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0xC6D926086b29774b10530ab9e02980e9586a061F',
@@ -149,7 +149,7 @@ const farms: FarmConfig[] = [
   //     97: '',
   //     21004: '0x2F3391AeBE27393aBa0a790aa5E1577fEA0361c2',
   //   },
-  //   quoteTokenSymbol: QuoteToken.MASH,
+  //   quoteTokenSymbol: QuoteToken.ALBA,
   //   quoteTokenAdresses: contracts.cake,
   //   depositUrl: 'https://dex.apeswap.finance/#/add/0x2F3391AeBE27393aBa0a790aa5E1577fEA0361c2/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
   //   image: 'mash-tako'
@@ -190,12 +190,12 @@ const farms: FarmConfig[] = [
   //   pid: 4,
   //   risk: 5,
   //   isTokenOnly: true,
-  //   lpSymbol: 'MASH',
+  //   lpSymbol: 'ALBA',
   //   lpAddresses: {
   //     97: '',
   //     21004: '0x87c182edb12f74d561519ab586205fe6cd75363a', // VIKING-BUSD LP
   //   },
-  //   tokenSymbol: 'MASH',
+  //   tokenSymbol: 'ALBA',
   //   tokenAddresses: {
   //     97: '',
   //     21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',

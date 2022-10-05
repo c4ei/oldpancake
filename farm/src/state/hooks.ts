@@ -86,7 +86,7 @@ export const usePriceMashBusd = (): BigNumber => {
   // const bnbPriceUSD = usePriceBnbBusd()
   // const farm = useFarmFromPid(pid)
   // return farm.tokenPriceVsQuote ? bnbPriceUSD.times(farm.tokenPriceVsQuote) : ZERO
-  const pid = 0; // MASH-BUSD LP
+  const pid = 0; // ALBA-BUSD LP
   const farm = useFarmFromPid(pid);
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO;
 }
@@ -110,7 +110,7 @@ export const useFarmsValue = () => {
       let val;
       if (farm.quoteTokenSymbol === QuoteToken.BNB) {
         val = (bnbPrice.times(farm.lpTotalInQuoteToken))
-      } else if (farm.quoteTokenSymbol === QuoteToken.CAKE) { // TODO: should be updated with quiteToken.MASH
+      } else if (farm.quoteTokenSymbol === QuoteToken.CAKE) { // TODO: should be updated with quiteToken.ALBA
         val = (mashPrice.times(farm.lpTotalInQuoteToken))
       } else {
         val = (farm.lpTotalInQuoteToken)

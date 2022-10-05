@@ -25,7 +25,7 @@ import PoolCard from './components/PoolCard'
 import PoolTabButtons from './components/PoolTabButtons'
 import Divider from './components/Divider'
 
-const MASH = new Token(ChainId.MAINNET, '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51', 18)
+const ALBA = new Token(ChainId.MAINNET, '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51', 18)
 const BNB = new Token(ChainId.MAINNET, '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa', 18)
 
 const Pools: React.FC = () => {
@@ -56,7 +56,7 @@ const Pools: React.FC = () => {
               const calls = [
                 // Balance of quote token on LP contract
                 {
-                  address: MASH.address,
+                  address: ALBA.address,
                   name: 'balanceOf',
                   params: [mytoken],
                 },
@@ -68,7 +68,7 @@ const Pools: React.FC = () => {
                 },
                 // Token decimals
                 {
-                  address: MASH.address,
+                  address: ALBA.address,
                   name: 'decimals',
                 },
               ]
@@ -126,7 +126,7 @@ const Pools: React.FC = () => {
               const calls = [
                 // Balance of quote token on LP contract
                 {
-                  address: MASH.address,
+                  address: ALBA.address,
                   name: 'balanceOf',
                   params: [mytoken],
                 },
@@ -138,7 +138,7 @@ const Pools: React.FC = () => {
                 },
                 // Token decimals
                 {
-                  address: MASH.address,
+                  address: ALBA.address,
                   name: 'decimals',
                 },
               ]

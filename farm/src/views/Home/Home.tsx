@@ -87,7 +87,7 @@ const Home: React.FC = () => {
       <Background src='images/background.png' alt='background' />
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {/* {TranslateString(576, 'MarshamallowDeFi')} */}
+          {/* {TranslateString(576, 'AlbaDeFi')} */}
           <BannerImg src='images/banner.png' alt='banner' />
         </Heading>
         {/* <Text>The sweetest and softest yield farm on the Binance Smart Chain!</Text> */}

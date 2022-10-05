@@ -1,6 +1,6 @@
 {
   "name": "pancakeswap",
-  "timestamp": "2020-08-25T15:41:29.665Z",
+  "timestamp": "2021-08-25T15:41:29.665Z",
   "version": {
     "major": 1,
     "minor": 3,
@@ -35,10 +35,10 @@
       "logoURI": "https://ceik.c4ei.net/images/tokens/0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa.png"
     },
     {
-      "name": "MarshamallowDeFi Token",
-      "symbol": "MASH",
+      "name": "AlbaDefi",
+      "symbol": "ALBA",
       "address": "0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51",
-      "chainId": 56,
+      "chainId": 21004,
       "decimals": 18
     }
 

@@ -50,11 +50,11 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'MASH BSC Scan',
+        label: 'ALBA BSC Scan',
         href: 'https://bscscan.com/token/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
       },
       {
-        label: 'MASH Price Graph',
+        label: 'ALBA Price Graph',
         href: 'https://dex.guru/token/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51-bsc',
       },
       {

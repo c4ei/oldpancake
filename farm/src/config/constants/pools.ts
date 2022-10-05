@@ -1,12 +1,12 @@
 import { PoolConfig, QuoteToken, PoolCategory } from './types'
 
-const MASH = 'MASH';
+const ALBA = 'ALBA';
 
 const pools: PoolConfig[] = [
   {
     sousId: 8,
     tokenName: 'Mash-SlimeV2 LP',
-    stakingTokenName: QuoteToken[MASH],
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51', // 0x787732f27d18495494cea3792ed7946bbcff8db2
     contractAddress: {
       97: '0xab76B5DA1af1C8091B8B8C87533627BB94D2FE36',
@@ -30,8 +30,8 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 2,
-    tokenName: 'MASH-BUSD LP',
-    stakingTokenName: QuoteToken[MASH],
+    tokenName: 'ALBA-BUSD LP',
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
       97: '0x00ea75D83B3Cb954447BADc9F807631416933C48',
@@ -55,8 +55,8 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 1,
-    tokenName: 'MASH-BNB LP',
-    stakingTokenName: QuoteToken[MASH],
+    tokenName: 'ALBA-BNB LP',
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
       97: '0xB949337009c97298c06Acbb585058887d10Ba3f9',
@@ -80,8 +80,8 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 3,
-    tokenName: 'MASH-PLUM LP V2',
-    stakingTokenName: QuoteToken[MASH],
+    tokenName: 'ALBA-PLUM LP V2',
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
       97: '0x99eC02568f4090A066c027d3172d317db0DD90a4',
@@ -105,8 +105,8 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 4,
-    tokenName: 'MASH-TAKO APE LP',
-    stakingTokenName: QuoteToken[MASH],
+    tokenName: 'ALBA-TAKO APE LP',
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
       97: '0x56d93Aefaf766b8DA4a57b9805057BD2822fC73a',
@@ -132,7 +132,7 @@ const pools: PoolConfig[] = [
   {
     sousId: 9,
     tokenName: 'Mash-SlimeV2 LP',
-    stakingTokenName: QuoteToken[MASH],
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
       97: '0x99B75635683E874d8ea3e2696a25e25AeDFDC454',
@@ -157,7 +157,7 @@ const pools: PoolConfig[] = [
   {
     sousId: 10,
     tokenName: 'BTCB',
-    stakingTokenName: QuoteToken[MASH],
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
       97: '0x08fa76bAA1D731F54248d45Ab19F9E8642f49b2D',
@@ -182,7 +182,7 @@ const pools: PoolConfig[] = [
   {
     sousId: 11,
     tokenName: 'CAKE',
-    stakingTokenName: QuoteToken[MASH],
+    stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
       97: '0xdeB31d3cb07f9F25D162B4cF4dBC79BC2983d39a',
