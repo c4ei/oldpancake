@@ -55,7 +55,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 1,
-    tokenName: 'ALBA-BNB LP',
+    tokenName: 'ALBA-C4EI LP',
     stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
@@ -76,7 +76,7 @@ const pools: PoolConfig[] = [
     isLPReward:true,
     burnFee: 3,
     slimeRounding: 5,
-    image: 'mash-bnb'
+    image: 'mash-c4ei'
   },
   {
     sousId: 3,

@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using ALBA-BNB LP tokens, which means you need to stake equal amounts of ALBA and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using ALBA-C4EI LP tokens, which means you need to stake equal amounts of ALBA and C4EI in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get ALBA-BNB LP >"
+        "text": "Get ALBA-C4EI LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, MarshmallowDeFi burns the ALBA."
+        "text": "The project gets the C4EI, MarshmallowDeFi burns the ALBA."
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy ALBA and BNB tokens"
+        "text": "Buy ALBA and C4EI tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get ALBA-BNB LP tokens by adding ALBA and BNB liquidity"
+        "text": "Get ALBA-C4EI LP tokens by adding ALBA and C4EI liquidity"
       }
     },
     {

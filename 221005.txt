@@ -70,3 +70,7 @@ export default {
   return useContract("0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", WETH_ABI, withSignerIfPossible) // wBNB
 
 /home/dev/www/farm_temp/oldpancake/exc/src/state/lists/hooks.ts
+
+/home/dev/www/farm_temp/oldpancake/farm/src/hooks/api.ts
+export const baseUrl = 'https://api.pancakeswap.com/api/v1'
+

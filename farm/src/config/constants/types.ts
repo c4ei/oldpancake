@@ -39,7 +39,8 @@ export enum QuoteToken {
 export enum PoolCategory {
   'COMMUNITY' = 'Community',
   'CORE' = 'Core',
-  'BINANCE' = 'Binance', // Pools using native BNB behave differently than pools using a token
+  'BINANCE' = 'Binance', // Pools using native C4EI behave differently than pools using a token
+  'C4EI' = 'C4ei', // Pools using native C4EI behave differently than pools using a token
 }
 
 export interface Address {

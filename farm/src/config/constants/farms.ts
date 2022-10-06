@@ -38,7 +38,7 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'ALBA-BNB LP',
+    lpSymbol: 'ALBA-C4EI LP',
     lpAddresses: {
       97: '',
       21004: '0x7621886ac71e985dbea4f3f563bbb5a7865876a8',
@@ -48,7 +48,7 @@ const farms: FarmConfig[] = [
       97: '',
       21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenSymbol: QuoteToken.C4EI,
     quoteTokenAdresses: contracts.wbnb,
   },
   // {
@@ -157,12 +157,12 @@ const farms: FarmConfig[] = [
   {
     pid: 2,
     risk: 3,
-    lpSymbol: 'BNB-BUSD LP',
+    lpSymbol: 'C4EI-BUSD LP',
     lpAddresses: {
       97: '',
       21004: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
-    tokenSymbol: 'BNB',
+    tokenSymbol: 'C4EI',
     tokenAddresses: {
       97: '',
       21004: '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa',
@@ -173,7 +173,7 @@ const farms: FarmConfig[] = [
   {
     pid: 3,
     risk: 2,
-    lpSymbol: 'BTCB-BNB LP',
+    lpSymbol: 'BTCB-C4EI LP',
     lpAddresses: {
       97: '',
       21004: '0x7561eee90e24f3b348e1087a005f78b4c8453524',
@@ -183,7 +183,7 @@ const farms: FarmConfig[] = [
       97: '',
       21004: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenSymbol: QuoteToken.C4EI,
     quoteTokenAdresses: contracts.wbnb,
   },
   // {
@@ -227,7 +227,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'WBNB',
     lpAddresses: {
       97: '',
-      21004: '0x1b96b92314c44b159149f7e0303511fb2fc4774f', // BNB-BUSD LP
+      21004: '0x1b96b92314c44b159149f7e0303511fb2fc4774f', // C4EI-BUSD LP
     },
     tokenSymbol: 'WBNB',
     tokenAddresses: {
@@ -302,7 +302,7 @@ const farms: FarmConfig[] = [
   //     97: '',
   //     21004: '0xd456be0ff7007b3d8ad656136487a23e771f5762',
   //   },
-  //   quoteTokenSymbol: QuoteToken.BNB,
+  //   quoteTokenSymbol: QuoteToken.C4EI,
   //   quoteTokenAdresses: contracts.wbnb,
   // },
   // {
@@ -383,7 +383,7 @@ const farms: FarmConfig[] = [
   //     97: '',
   //     21004: '0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402',
   //   },
-  //   quoteTokenSymbol: QuoteToken.BNB,
+  //   quoteTokenSymbol: QuoteToken.C4EI,
   //   quoteTokenAdresses: contracts.wbnb,
   //   image: 'dot-wbnb'
   // },

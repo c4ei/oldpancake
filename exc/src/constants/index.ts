@@ -59,7 +59,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.MAINNET]: [
     [
       new Token(ChainId.MAINNET, '0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69', 18, 'CAKE', 'PancakeSwap Token'),
-      new Token(ChainId.MAINNET, '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa', 18, 'WBNB', 'Wrapped BNB')
+      new Token(ChainId.MAINNET, '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa', 18, 'WBNB', 'Wrapped C4EI')
     ],
     [BUSD, USDT],
     // [DAI, USDT]

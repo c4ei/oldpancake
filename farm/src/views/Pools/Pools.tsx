@@ -26,7 +26,7 @@ import PoolTabButtons from './components/PoolTabButtons'
 import Divider from './components/Divider'
 
 const ALBA = new Token(ChainId.MAINNET, '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51', 18)
-const BNB = new Token(ChainId.MAINNET, '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa', 18)
+const C4EI = new Token(ChainId.MAINNET, '0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa', 18)
 
 const Pools: React.FC = () => {
   const { path } = useRouteMatch()
@@ -86,7 +86,7 @@ const Pools: React.FC = () => {
               const TOKEN = new Token(ChainId.MAINNET, mytoken, _tokenDecimals)
               Fetcher.fetchPairData(
                 TOKEN,
-                BNB,
+                C4EI,
                 getDefaultProvider('https://patient-long-flower.bsc.quiknode.pro/e8d35735534a1fa9c3680c58e16b3847be567cf4/'),
               ).then((pairData) =>
                 setPrice(
@@ -157,7 +157,7 @@ const Pools: React.FC = () => {
               const TOKEN = new Token(ChainId.MAINNET, mytoken, _tokenDecimals)
               Fetcher.fetchPairData(
                 TOKEN,
-                BNB,
+                C4EI,
                 getDefaultProvider('https://patient-long-flower.bsc.quiknode.pro/e8d35735534a1fa9c3680c58e16b3847be567cf4/'),
               ).then((pairData) =>
 
@@ -188,7 +188,7 @@ const Pools: React.FC = () => {
 
   const priceToBnb = (tokenName: string, tokenPrice: BigNumber, quoteToken: QuoteToken): BigNumber => {
     const tokenPriceBN = new BigNumber(tokenPrice)
-    if (tokenName === 'BNB') {
+    if (tokenName === 'C4EI') {
       return new BigNumber(1)
     }
     if (tokenPrice && quoteToken === QuoteToken.BUSD) {
@@ -249,7 +249,7 @@ const Pools: React.FC = () => {
       }
     }
     // console.log('RewardPrice', address, bbprice.toNumber(), price.toNumber())
-    // /!\ Assume that the farm quote price is BNB
+    // /!\ Assume that the farm quote price is C4EI
     const stakingTokenPriceInBNB = isBnbPool ? new BigNumber(1) : new BigNumber(stakingTokenFarm?.tokenPriceVsQuote)
 
     /*
