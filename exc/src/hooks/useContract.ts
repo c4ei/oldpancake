@@ -49,7 +49,7 @@ export function useTokenContract(tokenAddress?: string, withSignerIfPossible?: b
 export function useWETHContract(withSignerIfPossible?: boolean): Contract | null {
   const { chainId } = useActiveWeb3React()
   // return useContract(chainId ? WETH[chainId].address : undefined, WETH_ABI, withSignerIfPossible)
-  return useContract("0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", WETH_ABI, withSignerIfPossible) // wBNB
+  return useContract("0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa", WETH_ABI, withSignerIfPossible) // wBNB
 }
 
 export function useENSRegistrarContract(withSignerIfPossible?: boolean): Contract | null {

@@ -14,6 +14,18 @@ yarn start
 
 /home/dev/www/farm_temp/oldpancake/exc/src/constants/token/pancakeswap.json
 
+######################################################################
+AlbaToken : 0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51
+owner --> MasterChef-Alba : 0x1E7a94A2B33BB95d2BB9f174A213Ab6E5d6bd3fD
+######################################################################
+2022-10-06
+ALBA-BUSD LP : 0x83267FD68ACA1f0A11f3A89F187534c404d6Aa2c
+ALBA:0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51
+BUSD:0xBa9303709c2Ad10b62a598e18e15b1E42921edea
+https://ceik.c4ei.net/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709c2Ad10b62a598e18e15b1E42921edea
+--> LP : 0x83267FD68ACA1f0A11f3A89F187534c404d6Aa2c
+######################################################################
+
 
 /home/dev/www/farm_temp/oldpancake/exc/src/state/swap/hooks.ts
 '0xBCfCcbde45cE874adCB698cC183deBcF17952812', // v2 factory  --> 0x4e5fC6941e4cd0ba416275D746999eafC29Cd427 (22-10-05)
@@ -67,10 +79,11 @@ export default {
 
 /home/dev/www/farm_temp/oldpancake/exc/src/hooks/useContract.ts
   // return useContract(chainId ? WETH[chainId].address : undefined, WETH_ABI, withSignerIfPossible)
-  return useContract("0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", WETH_ABI, withSignerIfPossible) // wBNB
+  return useContract("0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa", WETH_ABI, withSignerIfPossible) // wBNB
 
 /home/dev/www/farm_temp/oldpancake/exc/src/state/lists/hooks.ts
 
 /home/dev/www/farm_temp/oldpancake/farm/src/hooks/api.ts
 export const baseUrl = 'https://api.pancakeswap.com/api/v1'
 
+/api/node_modules/@pancakeswap-libs/sdk/dist/entities/token.d.ts
