@@ -87,3 +87,7 @@ export default {
 export const baseUrl = 'https://api.pancakeswap.com/api/v1'
 
 /api/node_modules/@pancakeswap-libs/sdk/dist/entities/token.d.ts
+
+/home/dev/www/farm_temp/oldpancake/farm/src/config/constants/nfts.ts
+export const RABBIT_MINTING_FARM_ADDRESS = '0xf429c10Bf0b2c62e18111499dc910a70ff3cB91D'
+export const PANCAKE_RABBITS_ADDRESS = '0xAa0fb39ECB26230808407Ca209fD4f53AeAF2310'

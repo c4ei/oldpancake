@@ -1,0 +1,18 @@
+get https://dist.ipfs.io/
+
+tar -xvzf go-ipfs_v0.16.0_linux-arm64.tar.gz
+
+cd go-ipfs
+sudo bash install.sh
+--> Moved ./ipfs to /usr/local/bin
+
+ipfs --version
+
+ipfs init
+ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme
+
+
+ipfs daemon
+http://127.0.0.1:5001/webui
+
+QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn
