@@ -73,7 +73,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'ALBA BSC Scan',
-        href: 'https://bscscan.com/token/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
+        href: 'https://exp.c4ei.net/token/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
       },
       {
         label: 'ALBA Price Graph',
@@ -81,7 +81,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'TOFY BSC Scan',
-        href: 'https://bscscan.com/token/0xe1f2d89a6c79b4242f300f880e490a70083e9a1c',
+        href: 'https://exp.c4ei.net/token/0xe1f2d89a6c79b4242f300f880e490a70083e9a1c',
       },
       {
         label: 'TOFY Price Graph',
