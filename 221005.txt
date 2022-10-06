@@ -44,14 +44,6 @@ export default {
     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     97: '',
   },
-  lottery: {
-    56: '',
-    97: '',
-  },
-  lotteryNFT: {
-    56: '',
-    97: '',
-  },
   mulltiCall: {
     56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',  --> 0x59db9E646D3d9b18E2831Ea8039a2A407CE61289
     97: '0x67ADCB4dF3931b0C5Da724058ADC2174a9844412',
@@ -72,3 +64,9 @@ export default {
 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69
 /home/dev/www/farm_temp/oldpancake/farm/src/config/constants/farms.ts
 0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69
+
+/home/dev/www/farm_temp/oldpancake/exc/src/hooks/useContract.ts
+  // return useContract(chainId ? WETH[chainId].address : undefined, WETH_ABI, withSignerIfPossible)
+  return useContract("0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", WETH_ABI, withSignerIfPossible) // wBNB
+
+/home/dev/www/farm_temp/oldpancake/exc/src/state/lists/hooks.ts
