@@ -276,7 +276,7 @@ const Pools: React.FC = () => {
 
   return (
     <Page>
-      <Background src='images/background.png' alt='background' />
+      {/* <Background src='images/background.png' alt='background' /> */}
       <Hero>
         <div>
           <Heading as="h1" size="xxl" mb="16px">

@@ -91,3 +91,9 @@ export const baseUrl = 'https://api.pancakeswap.com/api/v1'
 /home/dev/www/farm_temp/oldpancake/farm/src/config/constants/nfts.ts
 export const RABBIT_MINTING_FARM_ADDRESS = '0xf429c10Bf0b2c62e18111499dc910a70ff3cB91D'
 export const PANCAKE_RABBITS_ADDRESS = '0xAa0fb39ECB26230808407Ca209fD4f53AeAF2310'
+
+
+background image - hidden
+images/background.png
+bottom shop img - hidden
+/images/egg/8.png
