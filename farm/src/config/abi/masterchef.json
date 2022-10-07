@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_mashPerBlock",
+        "name": "_albaPerBlock",
         "type": "uint256"
       },
       {
@@ -274,7 +274,7 @@
   },
   {
     "inputs": [],
-    "name": "mashPerBlock",
+    "name": "albaPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -472,7 +472,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_mashPerBlock",
+        "name": "_albaPerBlock",
         "type": "uint256"
       }
     ],
