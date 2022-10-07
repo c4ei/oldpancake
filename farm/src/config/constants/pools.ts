@@ -34,7 +34,7 @@ const pools: PoolConfig[] = [
     stakingTokenName: QuoteToken[ALBA],
     stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',
     contractAddress: {
-      97: '0xAafB57304AE38064aD06C2215Dd8a623D9B0969a',
+      // 97: '0xAafB57304AE38064aD06C2215Dd8a623D9B0969a',  //MashChefDeflacionaryDeposit : 0xB949337009c97298c06Acbb585058887d10Ba3f9
       21004: '0xAafB57304AE38064aD06C2215Dd8a623D9B0969a',
     },
     poolCategory: PoolCategory.CORE,
@@ -51,7 +51,7 @@ const pools: PoolConfig[] = [
     isLPReward:true,
     burnFee: 3,
     slimeRounding: 5,
-    image: 'mash-c4ei'
+    image: 'alba-c4ei'
   },
   // {
   //   sousId: 2,
