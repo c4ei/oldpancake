@@ -35,15 +35,14 @@ const Coming: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
-    <Card>
-      <div style={{ padding: '24px' }}>
+    <Card style={{ display: 'none' }}>
+      {/* <div style={{ padding: '24px' }}>
         <CardTitle>
           {TranslateString(414, 'Your Project?')}{' '}
           <span role="img" aria-label="eyes">
             👀
           </span>
         </CardTitle>
-        {/* <Image src="/images/bunny-question.svg" width={64} height={64} alt="Your project here" /> */}
         <Balance>???</Balance>
         <Label>{TranslateString(416, 'Create a pool for your token')}</Label>
         <Button
@@ -69,7 +68,7 @@ const Coming: React.FC = () => {
       </div>
       <Footer>
         <CommunityTag />
-      </Footer>
+      </Footer> */}
     </Card>
   )
 }

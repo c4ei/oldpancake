@@ -9,7 +9,7 @@ const pools: PoolConfig[] = [
   //   stakingTokenName: QuoteToken[ALBA],
   //   stakingTokenAddress: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51', // 0x787732f27d18495494cea3792ed7946bbcff8db2
   //   contractAddress: {
-  //     97: '0xab76B5DA1af1C8091B8B8C87533627BB94D2FE36',
+  //     // 97: '0xab76B5DA1af1C8091B8B8C87533627BB94D2FE36',
   //     21004: '0xab76B5DA1af1C8091B8B8C87533627BB94D2FE36',
   //   },
   //   poolCategory: PoolCategory.CORE,
@@ -38,7 +38,7 @@ const pools: PoolConfig[] = [
       21004: '0xAafB57304AE38064aD06C2215Dd8a623D9B0969a',
     },
     poolCategory: PoolCategory.CORE,
-    projectLink: 'https://ico.c4ei.net/',
+    projectLink: 'https://farm.c4ei.net/',
     harvest: true,
     isFinished: false,
     tokenPerBlock: '0.000124007936507936',

@@ -50,6 +50,31 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 3,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'ALBA',
+    lpAddresses: { 21004: '0x83267FD68ACA1f0A11f3A89F187534c404d6Aa2c',},
+    tokenSymbol: 'ALBA',
+    tokenAddresses: { 21004:'0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',},
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+
+  // {
+  //   pid: 3,
+  //   risk: 5,
+  //   isTokenOnly: true,
+  //   lpSymbol: 'ALBA',
+  //   lpAddresses: { 21004: '0x83267FD68ACA1f0A11f3A89F187534c404d6Aa2c', // VIKING-BUSD LP
+  //   },
+  //   tokenSymbol: 'ALBA',
+  //   tokenAddresses: { 21004: '0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51',},
+  //   quoteTokenSymbol: QuoteToken.BUSD,
+  //   quoteTokenAdresses: contracts.busd,
+  // },
+
   //   {
   //   pid: 20,
   //   risk: 5,
