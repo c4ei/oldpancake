@@ -16,7 +16,7 @@
       "address": "0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69.png"
+      "logoURI": "https://chg.c4ei.net/images/tokens/0x1A10F46a2902078d8a1edB576FdAF8CB9B125d69.png"
     },
     {
       "name": "BUSD Token",
@@ -24,7 +24,7 @@
       "address": "0xBa9303709c2Ad10b62a598e18e15b1E42921edea",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+      "logoURI": "https://chg.c4ei.net/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
     },
     {
       "name": "WrappedC4EI",
@@ -32,7 +32,7 @@
       "address": "0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa.png"
+      "logoURI": "https://chg.c4ei.net/images/tokens/0x83f7AaE73a80e5Ae7Fa4a4948F1CE90f57c638aa.png"
     },
     {
       "name": "AlbaDefi",
@@ -40,7 +40,7 @@
       "address": "0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51",
       "chainId": 21004,
       "decimals": 18,
-      "logoURI": "https://ceik.c4ei.net/images/tokens/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51.png"
+      "logoURI": "https://chg.c4ei.net/images/tokens/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51.png"
     }
 
   ]
