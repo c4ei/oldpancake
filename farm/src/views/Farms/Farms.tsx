@@ -99,7 +99,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             TranslateString(10002, 'Stake tokens to earn EGG')
             :
           TranslateString(320, 'Stake LP tokens to earn EGG')
-        } <br/>/farm/src/views/Farms/Farms.tsx
+        }
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {TranslateString(10000, 'Deposit Fee will be used to buyback EGG')}

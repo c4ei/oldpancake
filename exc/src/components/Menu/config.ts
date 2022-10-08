@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://ico.c4ei.net/',
+    href: 'https://farm.c4ei.net/',
   },
   // {
   //   label: 'Trade',
@@ -23,22 +23,22 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://ico.c4ei.net/farms',
+    href: 'https://farm.c4ei.net/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://ico.c4ei.net/pools',
+    href: 'https://farm.c4ei.net/pools',
   },
   // {
   //   label: 'SafeFarms',
   //   icon: 'FarmIcon',
-  //   href: 'http://safefarms.ico.c4ei.net/info',
+  //   href: 'http://safefarms.farm.c4ei.net/info',
   // },
   // {
   //   label: 'Audit',
   //   icon: 'AuditIcon',
-  //   href: 'https://ico.c4ei.net/Audit.pdf',
+  //   href: 'https://farm.c4ei.net/Audit.pdf',
   // },
   // {
   //   label: 'Partnership',

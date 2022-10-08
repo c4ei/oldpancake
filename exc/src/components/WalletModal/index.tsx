@@ -295,7 +295,7 @@ export default function WalletModal({
           <ContentWrapper>
             {error instanceof UnsupportedChainIdError ? (
               <h5>
-                Please connect to the appropriate Binance Smart Chain network.
+                Please connect to the appropriate C4EI network.
                 <a href="https://docs.binance.org/smart-chain/wallet/metamask.html">How?</a>
               </h5>
             ) : (

@@ -71,7 +71,7 @@ const Home: React.FC = () => {
           {/* {TranslateString(576, 'AlbaDeFi')} */}
           {/* <BannerImg src='images/banner.png' alt='banner' /> */}
         </Heading>
-        {/* <Text>The sweetest and softest yield farm on the Binance Smart Chain!</Text> */}
+        {/* <Text>The sweetest and softest yield farm on the C4EI!</Text> */}
       </Hero>
       <div>
         <Cards>

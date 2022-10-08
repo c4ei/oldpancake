@@ -33,7 +33,7 @@ const config: MenuEntry[] = [
   // {
   //   label: 'SafeFarms',
   //   icon: 'FarmIcon',
-  //   href: 'http://safefarms.ico.c4ei.net/info',
+  //   href: 'http://safefarms.farm.c4ei.net/info',
   // },
   // {
   //   label: 'Launch Pools',
@@ -43,7 +43,7 @@ const config: MenuEntry[] = [
   // {
   //   label: 'Audit',
   //   icon: 'AuditIcon',
-  //   href: 'https://ico.c4ei.net/Audit.pdf',
+  //   href: 'https://farm.c4ei.net/Audit.pdf',
   // },
 
 

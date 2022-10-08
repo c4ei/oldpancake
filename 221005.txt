@@ -30,7 +30,7 @@ https://ceik.c4ei.net/add/0x98A5A21B2fa55b14030c44b4C4ACe4B16f5c6C51/0xBa9303709
 /home/dev/www/farm_temp/oldpancake/exc/src/state/swap/hooks.ts
 '0xBCfCcbde45cE874adCB698cC183deBcF17952812', // v2 factory  --> 0x4e5fC6941e4cd0ba416275D746999eafC29Cd427 (22-10-05)
 '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-'0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02 --> 0xC07d4604400139108BbdB3076636365A385879eF --> 0x36DC049965fb0E07B9d49A2DCCE37Ac634D73ffa
+'0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F', // v2 router 02 --> 0xC07d4604400139108BbdB3076636365A385879eF --> 0x4e5fC6941e4cd0ba416275D746999eafC29Cd427
 
 /home/dev/www/farm_temp/oldpancake/exc/src/constants/v1/index.ts
 const V1_FACTORY_ADDRESSES: { [chainId in ChainId]: string } = {
@@ -97,3 +97,21 @@ background image - hidden
 images/background.png
 bottom shop img - hidden
 /images/egg/8.png
+
+######################################################################################################
+FACTORY_ADDRESS exc - 22-10-08
+0x36DC049965fb0E07B9d49A2DCCE37Ac634D73ffa --> 0x4e5fC6941e4cd0ba416275D746999eafC29Cd427
+######################################################################################################
+////////////////////////// Router //////////////////////////
+0x36DC049965fb0E07B9d49A2DCCE37Ac634D73ffa
+////////////////////////// PancakeFactory //////////////////////////
+0x4e5fC6941e4cd0ba416275D746999eafC29Cd427
+f043950a40ed5aac5b1781b0fa428c94774454e24f882b1231b6fe05145a1697
+
+/node_modules/@pancakeswap-libs/sdk/dist/constants.d.ts
+export declare enum ChainId {
+    MAINNET = 21004,
+    BSCTESTNET = 97
+}
+export declare const FACTORY_ADDRESS = "0x4e5fC6941e4cd0ba416275D746999eafC29Cd427"; //<--0xBCfCcbde45cE874adCB698cC183deBcF17952812
+export declare const INIT_CODE_HASH = "0xf043950a40ed5aac5b1781b0fa428c94774454e24f882b1231b6fe05145a1697"; //<-0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66
