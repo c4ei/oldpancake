@@ -11,19 +11,6 @@ import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
-  // align-items: center;
-  // background-image: url('/images/egg/3.png');
-  // background-repeat: no-repeat;
-  // background-position: top center;
-  // display: flex;
-  // justify-content: center;
-  // flex-direction: column;
-  // margin: auto;
-  // margin-bottom: 32px;
-  // padding-top: 116px;
-  // text-align: center;
-
-  // background-image: url('/images/egg/alert_4.jpg');
   align-items: center;
   display: flex;
   justify-content: center;
@@ -33,14 +20,8 @@ const Hero = styled.div`
   background-repeat: no-repeat;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    // background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
-    // background-position: left center, right center;
-    // height: 165px;
-    // padding-top: 0;
-
-    height: 170px;
+    height: 60px;
     background-position: center;
-    height: 165px;
     padding-top: 0;
     margin-bottom: 25px
     
@@ -88,7 +69,7 @@ const Home: React.FC = () => {
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {/* {TranslateString(576, 'AlbaDeFi')} */}
-          <BannerImg src='images/banner.png' alt='banner' />
+          {/* <BannerImg src='images/banner.png' alt='banner' /> */}
         </Heading>
         {/* <Text>The sweetest and softest yield farm on the Binance Smart Chain!</Text> */}
       </Hero>

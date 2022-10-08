@@ -34,11 +34,11 @@ const TotalValueLockedCard = () => {
         <>
           <CardValue value={farmsValue.toNumber()} prefix="$" decimals={2} fontSize="30px" />
         </>
-        <Heading size="md" mb="12px" mt="20px">
+        {/* <Heading size="md" mb="12px" mt="20px">
           {TranslateString(999, 'Value Locked for Launch Pools')}
-        </Heading>
+        </Heading> */}
         <>
-          <CardValue value={launchPoolsValue.toNumber()} prefix="$" decimals={2} fontSize="30px" />
+          {/* <CardValue value={launchPoolsValue.toNumber()} prefix="$" decimals={2} fontSize="30px" /> */}
         </>
       </CardBody>
     </StyledTotalValueLockedCard>
